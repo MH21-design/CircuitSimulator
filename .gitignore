@@ -1,0 +1,8 @@
+# Ignoriere Objektdateien
+*.o
+
+# Ignoriere ausführbare Dateien
+CircuitSimulator
+
+# Ignoriere alle Dateien in einem Verzeichnis namens "build"
+/build/

@@ -1,5 +1,4 @@
 #include "Component.h"
-#include <stdio.h>
 #include <vector>
 
 class Circuit
@@ -9,5 +8,6 @@ class Circuit
         void removeComponent(Component);
 
     private:
+        // deklariert eine Collegtion (vector) welche Component-Objekte hält
         std::vector<Component> components;
 };

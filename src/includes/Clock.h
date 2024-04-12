@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include <chrono>
+#include <ctime>
 #include <string>
+
 class Clock 
 {
     public:
-        std::string getCurrentTime(void);
+        std::string getCurrentTime();
 };

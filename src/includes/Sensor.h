@@ -6,5 +6,5 @@ class Sensor
         Pin pin;
 
     public:
-        virtual int readValue(void) = 0;
+        virtual int readValue() = 0;
 };

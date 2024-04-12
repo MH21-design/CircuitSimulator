@@ -1,10 +1,16 @@
-#include "Pin.h"
+#ifndef SENSOR_H;
+#define SENSOR_H;
 
-class Sensor
+#include "Pin.h"
+#include "Component.h"
+
+class Sensor : public Component
 {
+    public:
+    //  rein virtuelle Funktionen
+        
     protected:
         Pin pin;
-
-    public:
-        virtual int readValue() = 0;
 };
+
+#endif

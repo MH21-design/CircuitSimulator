@@ -1,3 +1,6 @@
+#ifndef CIRCUIT_H
+#define CIRCUIT_H
+
 #include "Component.h"
 #include <vector>
 
@@ -11,3 +14,5 @@ class Circuit
         // deklariert eine Collegtion (vector) welche Component-Objekte hält
         std::vector<Component> components;
 };
+
+#endif

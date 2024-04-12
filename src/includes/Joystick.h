@@ -1,7 +1,11 @@
+#ifndef JOYSTICK_H;
+#define JOYSTICK_H;
+
+#include "Component.h"
 #include "Pin.h"
 #include <stdio.h>
 
-class Joystick 
+class Joystick : public Component
 {
     public:
         int getPositionX();
@@ -11,3 +15,5 @@ class Joystick
         Pin pinX;
         Pin pinY;
 };
+
+#endif

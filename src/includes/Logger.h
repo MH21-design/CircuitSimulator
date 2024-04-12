@@ -1,3 +1,6 @@
+#ifndef LOGGER_H;
+#define LOGGER_H;
+
 #include <stdio.h>
 #include <string>
 
@@ -10,3 +13,5 @@ class Logger
     private:
         std::string log; 
 };
+
+#endif

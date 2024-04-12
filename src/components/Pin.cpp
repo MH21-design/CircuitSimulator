@@ -1,4 +1,4 @@
-#include "Pin.h"
+#include "../includes/Pin.h"
 
 /*
 void Pin::setMode(int pinNum, Mode mode)

@@ -1,4 +1,5 @@
-#include "Circuit.h"
+#include "../includes/Circuit.h"
+#include "../includes/Component.h"
 
 void Circuit::addComponent(Component c)
 {
@@ -18,5 +19,6 @@ void Circuit::removeComponent(Component c)
             components.erase(it);
             break;
         }
-    }
+    }  
 }
+

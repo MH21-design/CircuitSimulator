@@ -1,7 +1,7 @@
 #ifndef PIN_H  // Überprüft, ob PIN_H nicht definiert ist
 #define PIN_H  // Definiert PIN_H
 
-// enum class Mode  \{ INPUT, OUTPUT, INPUT_PULLUP };
+// Deklariert ein enum für den Status 
 enum class State { LOW, HIGH };
 
 class Pin 

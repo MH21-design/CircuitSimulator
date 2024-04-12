@@ -1,9 +1,11 @@
+#ifndef DHT_H
+#define DHT_H
+
 #include "Sensor.h"
 
 class Dht : public Sensor 
 {
     public:
-        int readValue() override;
         void setTemerature(float temp);
         void setHumidity(float humidity);
         float readTemperature();
@@ -17,3 +19,5 @@ class Dht : public Sensor
         float convertFtoC(float f);
         float computeHeatIndex(float temperature, float humidity, bool isFahrenheit);
 };
+
+#endif

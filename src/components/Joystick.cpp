@@ -1,11 +1,11 @@
-#include "Joystick.h"
+#include "../includes/Joystick.h"
 
 int Joystick::getPositionX()
 {
-    return 0;
+    return pinX.getAnalogValue();
 }
 
 int Joystick::getPositionY()
 {
-return 0;
+    return pinY.getAnalogValue();
 }

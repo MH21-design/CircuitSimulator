@@ -1,5 +1,5 @@
 CC = clang++
-CFLAGS = -I includes -Wall
+CFLAGS = -Iincludes -Wall
 
 SRCS = $(wildcard src/*.cpp) $(wildcard src/components/*.cpp)
 OBJS = $(SRCS:.cpp=.o)

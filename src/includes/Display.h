@@ -1,3 +1,6 @@
+#ifndef DISPLAY_H;
+#define DISPLAY_H;  
+
 #include "Pin.h"
 #include <stdio.h>
 #include <string>
@@ -12,3 +15,5 @@ class Display
     private:
         std::vector<Pin> pins;
 };
+
+#endif

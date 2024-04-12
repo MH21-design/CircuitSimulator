@@ -1,11 +1,22 @@
-#include "Display.h"
+#include "../includes/Display.h"
+#include <iostream>
 
 void Display::displayNumber(int number)
 {
-    // Logic implementieren
+/*
+    std::cout ist ein Objekt der Standartbibliothek von C++
+    diesem wird der Wert 'number' zugewiesen '<< Einfügungsoperator'
+    std::endl ist ein Manipulator welcher eine neue Zeile einfügt.
+*/
+    std::cout << number << std::endl;
 }
 
 void Display::displayText(std::string text)
 {
-    // Logic implementieren
+/*
+    std::cout ist ein Objekt der Standartbibliothek von C++
+    diesem wird der Wert 'text' zugewiesen '<< Einfügungsoperator'
+    std::endl ist ein Manipulator welcher eine neue Zeile einfügt.
+*/
+    std::cout << text << std::endl;
 }

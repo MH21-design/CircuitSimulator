@@ -1,3 +1,6 @@
+#ifndef ARDUINO_H // Überprüft, ob ARDUINO_H nicht definiert ist
+#define ARDUINO_H // Definiert ARDUINO_H
+
 #include "Pin.h"
 #include <map>
 
@@ -13,3 +16,5 @@ class Arduino
     private:
         std::map<int,Pin> pins;
 };
+
+#endif

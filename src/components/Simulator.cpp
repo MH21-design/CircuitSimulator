@@ -1,4 +1,4 @@
-#include "Simulator.h"
+#include "../includes/Simulator.h"
 
 void Simulator::start()
 {
@@ -6,16 +6,6 @@ void Simulator::start()
 }
 
 void Simulator::stop()
-{
-    // Logic implementieren
-}
-
-void Simulator::addComponent(Component) 
-{
-    // Logic implementieren
-}
-
-void Simulator::removeComponent(Component)
 {
     // Logic implementieren
 }

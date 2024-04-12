@@ -1,11 +1,11 @@
 #include "Simulator.h"
 
-void Simulator::start(void)
+void Simulator::start()
 {
     // Logic implementieren
 }
 
-void Simulator::stop(void)
+void Simulator::stop()
 {
     // Logic implementieren
 }
@@ -20,7 +20,7 @@ void Simulator::removeComponent(Component)
     // Logic implementieren
 }
 
-void Simulator::update(void) 
+void Simulator::update() 
 {
     // Logic implementieren
 }

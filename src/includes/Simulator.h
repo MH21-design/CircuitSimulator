@@ -5,11 +5,11 @@
 class Simulator
 {
     public:
-        void start(void);
-        void stop(void);
+        void start();
+        void stop();
         void addComponent(Component);
         void removeComponent(Component);
-        void update(void);
+        void update();
 
     private:
         Circuit circuit;

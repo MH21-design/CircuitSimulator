@@ -1,7 +1,7 @@
 CC = clang++
-CFLAGS = -I src/includes -Wall
+CFLAGS = -I includes -Wall
 
-SRCS = $(wildcard src/*.cpp src/components/*.cpp)
+SRCS = $(wildcard src/*.cpp) $(wildcard src/components/*.cpp)
 OBJS = $(SRCS:.cpp=.o)
 TARGET = main
 

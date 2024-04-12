@@ -13,6 +13,12 @@ class Component
     private:
         std::string name;
         int id;
+
+    
+    inline bool Component::operator==(const Component &other) const
+    {
+        return id == other.id;
+    }
 };
 
 #endif

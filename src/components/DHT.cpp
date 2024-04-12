@@ -1,10 +1,5 @@
-#include "DHT.h"
+#include "../includes/DHT.h"
 #include <cmath>
-
-int Dht::readValue()
-{
-    return 0;
-}
 
 void Dht::setTemerature(float temp)
 {

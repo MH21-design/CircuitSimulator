@@ -3,5 +3,5 @@
 class Distance : public Sensor
 {
     public:
-        int readValue(void) override;
+        int readValue() override;
 };

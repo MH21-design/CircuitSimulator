@@ -1,6 +1,6 @@
 #include "Distance.h"
 
-int Distance::readValue(void)
+int Distance::readValue()
 {
     return 0;
 }

@@ -4,8 +4,8 @@
 class Joystick 
 {
     public:
-        int getPositionX(void);
-        int getPositionY(void);
+        int getPositionX();
+        int getPositionY();
 
     private:
         Pin pinX;
